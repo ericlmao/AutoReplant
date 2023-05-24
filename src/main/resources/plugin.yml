@@ -1,0 +1,4 @@
+name: AutoReplant
+version: '${project.version}'
+main: com.bonksmp.autoreplant.AutoReplant
+api-version: 1.19
