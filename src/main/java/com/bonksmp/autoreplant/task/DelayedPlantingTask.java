@@ -18,6 +18,6 @@ public class DelayedPlantingTask extends BukkitRunnable {
     @Override
     public void run() {
         Block block = location.getBlock();
-        block.setType(material);
+        block.setType(material, false);
     }
 }
